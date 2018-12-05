@@ -1,14 +1,14 @@
 # Align Spaces [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][DependencyStatusIMGURL]][DependencyStatusURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL] [![Coverage Status][CoverageIMGURL]][CoverageURL]
 
-[NPMIMGURL]:                https://img.shields.io/npm/v/@cloudcmd/align-spaces.svg?style=flat&longCache=true
-[BuildStatusIMGURL]:        https://img.shields.io/travis/cloudcmd/align-spaces/master.svg?style=flat&longCache=true
-[DependencyStatusIMGURL]:   https://img.shields.io/david/cloudcmd/align-spaces.svg?style=flat&longCache=true
-[NPMURL]:                   https://npmjs.org/package/@cloudcmd/align-spaces "npm"
-[BuildStatusURL]:           https://travis-ci.org/cloudcmd/align-spaces  "Build Status"
-[DependencyStatusURL]:      https://david-dm.org/cloudcmd/align-spaces "Dependency Status"
+[NPMIMGURL]:                https://img.shields.io/npm/v/align-spaces.svg?style=flat&longCache=true
+[BuildStatusIMGURL]:        https://img.shields.io/travis/coderaiser/align-spaces/master.svg?style=flat&longCache=true
+[DependencyStatusIMGURL]:   https://img.shields.io/david/coderaiser/align-spaces.svg?style=flat&longCache=true
+[NPMURL]:                   https://npmjs.org/package/align-spaces "npm"
+[BuildStatusURL]:           https://travis-ci.org/coderaiser/align-spaces  "Build Status"
+[DependencyStatusURL]:      https://david-dm.org/coderaiser/align-spaces "Dependency Status"
 
-[CoverageURL]:              https://coveralls.io/github/cloudcmd/align-spaces?branch=master
-[CoverageIMGURL]:           https://coveralls.io/repos/cloudcmd/align-spaces/badge.svg?branch=master&service=github
+[CoverageURL]:              https://coveralls.io/github/coderaiser/align-spaces?branch=master
+[CoverageIMGURL]:           https://coveralls.io/repos/coderaiser/align-spaces/badge.svg?branch=master&service=github
 
 Align spaces on empty lines of a source code.
 
