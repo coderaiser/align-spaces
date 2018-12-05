@@ -17,7 +17,7 @@
     "watch:test": "nodemon -w lib -w test -x \"npm test\"",
     "lint": "eslint bin lib test",
     "coverage": "nyc npm test",
-    "report": "nyc report --reporter=text-lcov | coveralls"
+    "report": "nyc report --reporter=text-lcov | coveralls || true"
   },
   "dependencies": {
   },
