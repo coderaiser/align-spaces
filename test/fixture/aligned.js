@@ -1,10 +1,11 @@
 'use strict';
 
-const t = 5;
-
 module.exports = () => {
-    const m = 5;
+    const t = 'hello';
     
-    return m + t;
+    return m = []
+        .map(console.log);
+    
+    return t;
 };
 
