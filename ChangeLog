@@ -1,0 +1,5 @@
+2018.12.25, v1.0.1
+
+fix:
+- (align-spaces) wrong align on dot chaining
+
