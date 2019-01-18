@@ -3,7 +3,7 @@
 const {join} = require('path');
 const {readFileSync} = require('fs');
 
-const test = require('tape');
+const test = require('supertape');
 const tryCatch = require('try-catch');
 
 const alignSpaces = require('..');

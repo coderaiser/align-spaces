@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+'use strict';
+
 const [name] = process.argv.slice(2);
 
 if (!name)
