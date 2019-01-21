@@ -1,11 +1,31 @@
 'use strict';
 
-module.exports = () => {
-    const t = 'hello';
+const {
+    isObjectPattern,
+    isArrayPattern,
+} = require('putout').types;
 
-    return m = []
-        .map(console.log);
+module.exports.report = () => 'Empty block statement';
 
-    return t;
+module.exports.fix = (path) => {
+    path.remove();
+};
+
+module.exports.find = (ast, {traverse}) => {
+    const places = [];
+
+    traverse(ast, {
+        VariableDeclarator(path) {
+            const {id} = path.node;
+   
+            if (!isObjectPattern(id, {properties: []}))
+                return places.push();
+
+            if (!isArrayPattern(id, {elements: []}))
+                return places.push();
+        }
+    });
+
+    return places;
 };
 

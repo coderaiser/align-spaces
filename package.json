@@ -15,7 +15,9 @@
   "scripts": {
     "test": "tape 'test/*.js'",
     "watch:test": "nodemon -w lib -w test -x \"npm test\"",
-    "lint": "eslint bin lib test/*.js",
+    "lint": "redrun lint:*",
+    "lint:bin": "eslint bin --rule 'no-console:0' bin",
+    "lint:lib": "eslint lib test/*.js",
     "coverage": "nyc npm test",
     "report": "nyc report --reporter=text-lcov | coveralls || true"
   },
@@ -24,6 +26,7 @@
     "align-whitespaces"
   ],
   "devDependencies": {
+    "@putout/eslint-config": "^1.1.0",
     "coveralls": "^3.0.0",
     "eslint": "^5.6.0",
     "eslint-plugin-node": "^8.0.0",
