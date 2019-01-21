@@ -1,3 +1,12 @@
+2019.01.21, v1.0.2
+
+fix:
+- (align-spaces) align when there is a spaces string
+
+feature:
+- (align-spaces) tape -> supertape
+
+
 2018.12.25, v1.0.1
 
 fix:
