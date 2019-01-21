@@ -5,6 +5,9 @@ const {
     isArrayPattern,
 } = require('putout').types;
 
+function justEmpty() {
+}
+
 module.exports.report = () => 'Empty block statement';
 
 module.exports.fix = (path) => {
