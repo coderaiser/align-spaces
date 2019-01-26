@@ -56,7 +56,7 @@ module.exports = () => {
 ## Related
 
 - [eslint-remove-line](https://github.com/coderaiser/eslint-remove-line) - `eslint --fix` for [unused variables](https://eslint.org/docs/rules/no-unused-vars).
-- [putout](https://github.com/coderaiser/putout) - find and remove unused variables.
+- [putout](https://github.com/coderaiser/putout) - the pluggable code transformer.
 
 ## License
 
