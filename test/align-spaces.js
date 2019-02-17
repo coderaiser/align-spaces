@@ -29,3 +29,24 @@ test('align-spaces', (t) => {
     t.end();
 });
 
+test('align-spaces: isAligned', (t) => {
+    const result = alignSpaces.isAligned(notAligned);
+    
+    t.notOk(result, 'should be false');
+    t.end();
+});
+
+test.only('align-spaces: isAligned: ok', (t) => {
+    debugger;
+    const result = alignSpaces.isAligned([
+      'function calc() {',
+      '    const result = [];',
+      '    ',
+      '    return result;',
+      '}'
+    ].join('\n'));
+    
+    t.ok(result, 'should be true');
+    t.end();
+});
+
