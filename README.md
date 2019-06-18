@@ -39,7 +39,6 @@ module.exports = () => {
 
     return t + m;
 };
-`
 `);
 // returns
 `
@@ -47,7 +46,7 @@ const t = 'hello';
 
 module.exports = () => {
     cosnt m = 'world';
-    
+....    
     return t + m;
 };
 `
