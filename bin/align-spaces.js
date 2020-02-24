@@ -4,8 +4,10 @@
 
 const [name] = process.argv.slice(2);
 
-if (!name)
-    return console.log('align-spaces <filename>');
+if (!name) {
+    console.log('align-spaces <filename>');
+    process.exit();
+}
 
 const fs = require('fs');
 const alignSpaces = require('..');
