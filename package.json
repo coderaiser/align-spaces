@@ -40,7 +40,7 @@
     "eslint-plugin-putout": "^3.2.1",
     "madrun": "^5.4.2",
     "nodemon": "^1.14.12",
-    "nyc": "^14.1.1",
+    "nyc": "^15.0.0",
     "putout": "^7.13.1",
     "redrun": "^7.0.2",
     "supertape": "^1.2.0",
