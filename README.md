@@ -1,9 +1,9 @@
 # Align Spaces [![NPM version][NPMIMGURL]][NPMURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL] [![Coverage Status][CoverageIMGURL]][CoverageURL]
 
 [NPMIMGURL]: https://img.shields.io/npm/v/align-spaces.svg?style=flat&longCache=true
-[BuildStatusIMGURL]: https://img.shields.io/travis/coderaiser/align-spaces/master.svg?style=flat&longCache=true
 [NPMURL]: https://npmjs.org/package/align-spaces "npm"
-[BuildStatusURL]: https://travis-ci.org/coderaiser/align-spaces "Build Status"
+[BuildStatusURL]: https://github.com/coderaiser/align-spaces/actions?query=workflow%3A%22Node+CI%22 "Build Status"
+[BuildStatusIMGURL]: https://github.com/coderaiser/align-spaces/workflows/Node%20CI/badge.svg
 [CoverageURL]: https://coveralls.io/github/coderaiser/align-spaces?branch=master
 [CoverageIMGURL]: https://coveralls.io/repos/coderaiser/align-spaces/badge.svg?branch=master&service=github
 
