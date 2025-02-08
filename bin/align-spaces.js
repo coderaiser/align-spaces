@@ -2,6 +2,7 @@
 
 'use strict';
 
+const process = require('node:process');
 const [name] = process.argv.slice(2);
 
 if (!name) {
@@ -9,10 +10,10 @@ if (!name) {
     process.exit();
 }
 
-const fs = require('fs');
+const fs = require('node:fs');
+
 const alignSpaces = require('..');
 
 const str = fs.readFileSync(name, 'utf8');
 
 fs.writeFileSync(name, alignSpaces(str));
-

@@ -1,6 +1,7 @@
 {
   "name": "align-spaces",
   "version": "1.0.4",
+  "type": "commonjs",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "align spaces on empty lines of a source code",
   "homepage": "http://github.com/coderaiser/align-spaces",
@@ -10,13 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/coderaiser/align-spaces.git"
-  },
-  "nyc": {
-    "exclude": [
-      "test",
-      ".madrun.js"
-    ]
+    "url": "git+https://github.com/coderaiser/align-spaces.git"
   },
   "scripts": {
     "test": "madrun test",
@@ -38,18 +33,16 @@
     "coveralls": "^3.0.0",
     "eslint": "^9.20.0",
     "eslint-plugin-n": "^17.15.1",
-    "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-putout": "^24.0.1",
     "madrun": "^10.2.4",
     "nodemon": "^3.1.9",
-    "nyc": "^15.0.0",
     "putout": "^38.0.9",
     "supertape": "^10.10.0",
     "try-catch": "^3.0.0"
   },
   "license": "MIT",
   "engines": {
-    "node": ">=8.3.0"
+    "node": ">=18"
   },
   "publishConfig": {
     "access": "public"
