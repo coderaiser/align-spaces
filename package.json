@@ -1,6 +1,6 @@
 {
   "name": "align-spaces",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "type": "commonjs",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "align spaces on empty lines of a source code",

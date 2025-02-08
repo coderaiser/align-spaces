@@ -1,3 +1,22 @@
+2025.02.09, v2.0.0
+
+feature:
+- 60bd85c align-spaces: drop support of node < 18
+- 0f575d8 align-spaces: eslint-plugin-n v17.15.1
+- c33fd25 align-spaces: eslint-plugin-putout v24.0.1
+- ba856e7 align-spaces: eslint v9.20.0
+- 7ef515c align-spaces: madrun v10.2.4
+- 1b1871a align-spaces: nodemon v3.1.9
+- abb8ddd align-spaces: c8 v10.1.3
+- a100cec align-spaces: putout v38.0.9
+- 66cea8e align-spaces: supertape v10.10.0
+- 0a4942b (package) supertape v2.0.1
+- a805089 (package) putout v9.1.0
+- a0a1644 (package) madrun v7.0.0
+- 43e7ec8 (package) eslint-plugin-putout v5.0.1
+- 224c1a5 (package) eslint v7.3.1
+- 1853e0c (package) try-catch v3.0.0
+
 2020.02.24, v1.0.4
 
 feature:
