@@ -1,18 +1,15 @@
 #!/usr/bin/env node
 
-'use strict';
+import process from 'node:process';
+import fs from 'node:fs';
+import {alignSpaces} from '../lib/align-spaces.js';
 
-const process = require('node:process');
 const [name] = process.argv.slice(2);
 
 if (!name) {
     console.log('align-spaces <filename>');
     process.exit();
 }
-
-const fs = require('node:fs');
-
-const alignSpaces = require('..');
 
 const str = fs.readFileSync(name, 'utf8');
 

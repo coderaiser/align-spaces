@@ -26,7 +26,7 @@ align-spaces unaligned.js
 `align-spaces` can be used as a library:
 
 ```js
-const alignSpaces = require('align-spaces');
+import {alignSpaces} from 'align-spaces';
 
 alignSpaces(`
 const t = 'hello';
@@ -42,7 +42,7 @@ module.exports = () => {
 `
 const t = 'hello';
 
-module.exports = () => {
+export defualt function() {
     cosnt m = 'world';
 ....    
     return t + m;

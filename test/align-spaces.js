@@ -1,14 +1,10 @@
-'use strict';
+import {join} from 'node:path';
+import {readFileSync} from 'node:fs';
+import {test} from 'supertape';
+import {tryCatch} from 'try-catch';
+import {alignSpaces} from '../lib/align-spaces.js';
 
-const {join} = require('node:path');
-const {readFileSync} = require('node:fs');
-
-const test = require('supertape');
-const tryCatch = require('try-catch');
-
-const alignSpaces = require('..');
-
-const fixture = join(__dirname, 'fixture');
+const fixture = new URL('fixture', import.meta.url).pathname;
 const pathNotAligned = join(fixture, 'not-aligned.js');
 const pathAligned = join(fixture, 'aligned.js');
 
