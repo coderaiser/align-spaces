@@ -37,7 +37,7 @@
     "nodemon": "^3.1.9",
     "putout": "^41.20.1",
     "supertape": "^12.4.0",
-    "try-catch": "^3.0.0"
+    "try-catch": "^4.0.9"
   },
   "license": "MIT",
   "engines": {
