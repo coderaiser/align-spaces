@@ -1,3 +1,14 @@
+2026.02.10, v3.0.0
+
+feature:
+- b1a7c93 align-spaces: migrate to ESM
+- 3fd9d3d align-spaces: try-catch v4.0.9
+- 4b98e76 align-spaces: supertape v12.4.0
+- 9cf1108 align-spaces: putout v41.20.1
+- dffacb4 align-spaces: madrun v12.1.3
+- e752d5b align-spaces: eslint-plugin-putout v30.0.2
+- 6d07553 align-spaces: eslint v10.0.0
+
 2025.02.09, v2.0.0
 
 feature:
