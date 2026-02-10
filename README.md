@@ -32,7 +32,7 @@ alignSpaces(`
 const t = 'hello';
 
 module.exports = () => {
-    cosnt m = 'world';
+    const m = 'world';
     
     return t + m;
 };
@@ -42,8 +42,8 @@ module.exports = () => {
 `
 const t = 'hello';
 
-export defualt function() {
-    cosnt m = 'world';
+export default function() {
+    const m = 'world';
 ....    
     return t + m;
 };
